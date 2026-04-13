@@ -6,6 +6,7 @@ console.log(`hello my name is ${name} and my repo count is ${repoCount}`);
 
 console.log(name);
 console.log(name[2]);
+console.log(name[8]);
 
 
 const gameName =  new String("sahil");     // best way to define Strings
