@@ -11,9 +11,22 @@ if(true){
 }
 
 
-console.log(a);
-console.log(b);
-console.log(c);
-console.log(d);
+// console.log(a);
+// console.log(b);
+// console.log(c);
+// console.log(d);
 
 
+function one(){
+    const userName = "sahil";
+
+    function two(){
+        const website = "youtube";
+        console.log(userName);
+    }
+    // console.log(website);
+    console.log("one");
+    two();
+}
+
+one();
