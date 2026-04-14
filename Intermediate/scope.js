@@ -29,4 +29,31 @@ function one(){
     two();
 }
 
-one();
+// one();
+
+
+if(true){
+    const username = "sahil";
+    if(username === "sahil"){
+        const website = " youtube";
+        // console.log(username + website);
+    }
+    // console.log(website);
+
+}
+
+
+// ############ Interesting ############
+
+console.log(addOne(5));       // hoisting
+function addOne(num){
+    return num+1;
+}
+// console.log(addOne(5));
+
+
+// console.log(addTwo(5));     // cannot access before initialization
+const addTwo = function(num){
+    return num+2;
+}
+console.log(addTwo(5));
