@@ -31,4 +31,4 @@ const myCart = [
 ]
 
 const cartTotal = myCart.reduce((acc, ele) => (ele.price + acc),0);
-console.log(cartTotal);
+console.log(cartTotal); 
