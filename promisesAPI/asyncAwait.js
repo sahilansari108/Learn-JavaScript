@@ -39,7 +39,7 @@ async function consumePromiseFive() {
 // getAllUser();
 
 
-fetch('https://api.github.com/user/sahilansari108')
+fetch('https://api.github.com/users/sahilansari108')
 .then((response)=>{
     return response.json()
 })
