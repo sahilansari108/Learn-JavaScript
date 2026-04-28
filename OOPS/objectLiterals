@@ -15,4 +15,30 @@ const user = {
 // console.log(this);
 
 
+// ************************************************************
+// Constructor Function
 
+function USER2 (username,loginCount, isLoggedIn){
+    this.username = username;
+    this.loginCount = loginCount;
+    this.isLoggedIn = isLoggedIn;
+
+    this.greeting = function(){
+        console.log(`Welcome ${this.username}`);
+    }
+
+    return this;
+}
+
+// const userOne = USER2("sahil", 12, true);
+// const userTwo = USER2("satyam", 13, false);
+
+const userOne = new USER2("sahil", 12, true);
+const userTwo = new USER2("satyam", 13, false);
+
+console.log(userOne);
+console.log(userTwo.greeting());
+console.log(userOne.constructor);
+
+
+// when use new keyword and empty object created and then data added on it(constructor call), then this data added
